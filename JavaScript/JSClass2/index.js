@@ -12,26 +12,26 @@ console.log('Chaliye shuru karte hai ');
 
 //factory function 
 
-// function createRectangle(len, bre) {
+function createRectangle(len, bre) {
 
-//     const rectangle = {
-//         length: len,
-//         breadth:bre ,
+    const rectangle = {
+        length: len,
+        breadth:bre ,
 
-//         draw() {
-//             console.log('drawing rectangle');
-//         }
-// //     };
-//     return rectangle;
-// }
+        draw() {
+            console.log('drawing rectangle');
+        } };
+    return rectangle;
+}
 
-// let rectangleObj1 = createRectangle(5, 4);
+createRectangle(5, 4);
 // let rectangle2 = createRectangle(2,3);
 // let rectangle3 = createRectangle(7,9);
 
 //Camelcase -> numberOfStudents
 //constructor function -> Pascal Notation -> first letter of every word is Capital -> NumberOfStudents
 //constructor function -> prop/methods -> intialise/Define
+
 // function Rectangle(len, bre) {
 //     this.length = len;
 //     this.breadth = bre;
@@ -128,10 +128,10 @@ console.log('Chaliye shuru karte hai ');
 
 // console.log(a.value);
 
-let rectangle = {
-    length:2,
-    breadth:4
-};
+// let rectangle = {
+//     length:2,
+//     breadth:4
+// };
 
 //for-in loop 
 // for(let key in rectangle ) {
@@ -201,4 +201,4 @@ let rectangle = {
 
 // src.a++;
 
-// console.log(dest);
+// console.log(dest)

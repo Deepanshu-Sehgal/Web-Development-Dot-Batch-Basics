@@ -54,6 +54,15 @@
 //     console.log('hello DiDi');
 // });
 
+const input = document.querySelector("input");
+const log = document.getElementById("log");
+
+input.addEventListener("change", updateValue);
+
+function updateValue(e) {
+  console.log(e.target.value);
+}
+
 
 
 

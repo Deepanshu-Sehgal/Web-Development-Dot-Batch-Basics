@@ -45,10 +45,10 @@
 //     return total;
 // }
 
-// // console.log(sum(1,2));
-// //console.log(sum(1));
-// // console.log(sum());
-// //console.log(sum(1,2,,3,4,5));
+// console.log(sum(1,2));
+// console.log(sum(1));
+// console.log(sum());
+// console.log(sum(1,2,4,3,4,5));
 
 // let ans = sum(1,2,2,3);
 // console.log(ans);
@@ -63,9 +63,9 @@
 
 
 //Default Parameters
-function interest(p,r=6,y=9) {
-    return p*r*y/100;
-}
+// function interest(p,r=6,y=9) {
+//     return p*r*y/100;
+// }
 
 //GETTER SETTER
 
@@ -142,13 +142,13 @@ function interest(p,r=6,y=9) {
 // }
 
 //sorting 
-// let a = [10,5,4,25];
+let a = [10,5,4,25];
 
-// a.sort(function(a,b) {
-//     return a-b;
-// });
+a.sort(function(a,b) {
+    return a-b;
+});
 
-// console.log(a);
+console.log(a);
 
 let arr = [-1,-2,-3,-4];
 // let total = 0;

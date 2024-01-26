@@ -1,16 +1,17 @@
 
 // function eventFunction() {
-//     console.log('I have clicked on the docuemnt');
+//     console.log("Function called")
 // }
 
-// document.addEventListener('click', eventFunction);
+// document.addEventListener("click", eventFunction,true);
 
-// document.removeEventListener('click', eventFunction);
+
+//document.removeEventListener('click', eventFunction,true)
 
 // const content = document.querySelector('#wrapper');
 
-// content.addEventListener('click', function(babbar) {
-//     console.log(babbar);
+// content.addEventListener('click', (e)=> {
+//     console.log(e);
 // })
 
 // let links = document.querySelectorAll('a');
